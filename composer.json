@@ -1,0 +1,45 @@
+{
+    "name": "OceanicKang/OceanicFrame",
+    "description": "OceanicFrame 框架",
+    "keywords": ["OceanicKang", "OceanicFrame", "php","yii2", "framework", "advanced", "project template"],
+    "homepage": "http://blog.oceanickang.com/",
+    "type": "project",
+    "license": "Apache-2.0",
+    "support": {
+        "issues": "https://github.com/OceanicKang/OceanicFrame/issues",
+        "forum": "https://blog.oceanickang.com",
+        "wiki": "https://github.com/OceanicKang/OceanicFrame/wiki",
+        "source": "https://github.com/OceanicKang/OceanicFrame"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "e282486518/yii2-console-migration": "@dev"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1",
+        "oceanickang/oframe-basics": "dev-master"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
