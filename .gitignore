@@ -33,3 +33,11 @@ phpunit.phar
 
 # vagrant runtime
 /.vagrant
+
+/.htaccess
+
+/.user.ini
+
+/404.html
+
+/index.html

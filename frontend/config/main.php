@@ -22,7 +22,7 @@ return [
         ],
 
         'user' => [
-            'identityClass' => 'common\models\User',
+            'identityClass' => 'common\models\frontend\Member',
             'enableAutoLogin' => true,
             'identityCookie' => ['name' => '_identity-frontend', 'httpOnly' => true],
         ],

@@ -1,0 +1,165 @@
+/* layui 样式修改 */
+#backend .layui-card-body {
+    overflow: auto;
+}
+#backend .layui-card .layui-card-header i {
+    margin-right: 5px;
+}
+#backend .layui-btn-container {
+    overflow: auto;
+}
+#backend .layui-btn-container .layui-btn {
+    margin-bottom: 0px;
+}
+#backend .layui-icon {
+    font-size: 14px !important;
+    margin-right: 0px !important;
+}
+#backend .layui-header .layui-icon {
+    font-size: 16px !important;
+}
+#backend .layui-table .layui-form-switch {
+    margin-top: 0px;
+}
+#backend .layui-layer-page > .layui-layer-content {
+    height: auto !important;
+}
+#backend .layui-side-menu .layui-nav .layui-nav-item .zmdi, #backend  .layui-side-menu .layui-nav .layui-nav-item .ali-icon {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    margin-top: -19px;
+}
+
+/* 自定义样式 */
+.of-float-r {
+    float: right !important;
+}
+.of-float-l {
+    float: left !important;
+}
+.of-float-n {
+    float: none !important;
+}
+.of-width-20 {
+    width: 20px !important;
+}
+.of-width-30 {
+    width: 30px !important;
+}
+.of-width-40 {
+    width: 40px !important;
+}
+.of-width-50 {
+    width: 50px !important;
+}
+.of-width-60 {
+    width: 60px !important;
+}
+.of-width-100 {
+    width: 100px !important;
+}
+.of-txt-center {
+    text-align: center !important;
+}
+.of-txt-right {
+    text-align: right !important;
+}
+.of-txt-nowrap {
+    white-space: nowrap !important;
+}
+.of-txt-danger {
+    color: #FF5722 !important;
+}
+.of-bg-gray {
+    background-color: #e6e6e6 !important;
+    color: #666666;
+}
+.of-ibox {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+    border-color: #e6e6e6;
+ }
+ .of-ibox-header {
+    height: 42px;
+    border-bottom-color: #f6f6f6;
+    background-color: #f2f2f2;
+ }
+
+/* 表单错误提醒样式 */
+.has-error input:focus {
+    border-color: #FF5722 !important;
+}
+.help-block, .help-block-error {
+    text-align: right;
+    color: #FF5722 !important;
+}
+
+/* 页面滚动条样式 */
+::-webkit-scrollbar {
+    width: 0px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #8AEFFF;
+}
+
+/* 后台错误提醒样式 bar */
+#lay-breadcrumbs, .lay-breadcrumbs {
+    border: none;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 80px 0 40px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    font-size: 10px;
+}
+#backend .alert-danger {
+    color: #FF5722;
+    border: 1px solid #FF5722;
+}
+#backend .alert-success {
+    color: #62bd63;
+    border: 1px solid #62bd63;
+}
+#backend .alert-info, .alert-warning {
+    color: #da8a00;
+    border: 1px solid #da8a00;
+}
+
+/* setting 界面样式 */
+#backend .btn-container {
+    height: auto;
+    padding: 10px;
+}
+#backend .btn-container a {
+    height: auto;
+    color: #333;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 2.4em;
+    margin: 5px !important;
+}
+#backend .btn-container a > i {
+    display: block;
+    font-size: 2.5em;
+    margin: 0.3em auto 0 auto;
+}
+#backend .btn-container a > span {
+    display: block;
+}
+#backend .btn-container a:hover {
+    background-color: rgba(30,159,255, 0.8);
+    color: #fff;
+}
+#backend .btn-container .layui-btn {
+    vertical-align: baseline;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}

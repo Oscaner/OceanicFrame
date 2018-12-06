@@ -1,4 +1,4 @@
 <!-- _navbar.md -->
 
 * [Home](/)
-* [Blog](https://blog.oceanickang.com)
+* [Blog](https://www.oceanickang.com)

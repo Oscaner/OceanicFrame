@@ -5,23 +5,29 @@
 /* @var $message string */
 /* @var $exception Exception */
 
+
+
 use yii\helpers\Html;
 
-$this->title = $name;
+$this -> title = $name;
 ?>
-<div class="site-error">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+<style type="text/css">
+    .layadmin-user-login-main {
+        width: auto;
+    }
+</style>
 
-    <div class="alert alert-danger">
-        <?= nl2br(Html::encode($message)) ?>
+<div class="layui-fluid">
+    <div class="layadmin-tips">
+
+        <i class="layui-icon" face>&#xe664;</i>
+    
+        <div class="layui-text" style="font-size: 20px;">
+            <?= Html::encode($this->title) ?> <br>
+            <?= nl2br(Html::encode($message)) ?>
+        </div>
+    
     </div>
-
-    <p>
-        The above error occurred while the Web server was processing your request.
-    </p>
-    <p>
-        Please contact us if you think this is a server error. Thank you.
-    </p>
 
 </div>

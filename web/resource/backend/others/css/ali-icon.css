@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'ali-icon';  /* project id 892305 */
+    src: url('//at.alicdn.com/t/font_892305_bxwkkbg8nbc.eot');
+    src: url('//at.alicdn.com/t/font_892305_bxwkkbg8nbc.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_892305_bxwkkbg8nbc.woff') format('woff'),
+    url('//at.alicdn.com/t/font_892305_bxwkkbg8nbc.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_892305_bxwkkbg8nbc.svg#iconfont') format('svg');
+}
+
+.ali-icon {
+    font-family: "ali-icon" !important;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.ali-icon-email:before { content: "\e628"; }
+
+.ali-icon-success:before { content: "\e625"; }
+
+.ali-icon-danger:before { content: "\e600"; }
+
+.ali-icon-warning:before { content: "\e609"; }
+
+.ali-icon-dustbin:before { content: "\e636"; }
+

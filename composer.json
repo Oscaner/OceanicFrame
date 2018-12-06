@@ -17,15 +17,29 @@
         "yiisoft/yii2": "~2.0.6",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
-        "e282486518/yii2-console-migration": "@dev"
+        "yiisoft/yii2-imagine": "~2.0.0",
+        "yiisoft/yii2-elasticsearch": "~2.0.0",
+        "yiisoft/yii2-authclient": "~2.1.0",
+        "yiisoft/yii2-redis": "~2.0.0",
+        "mojifan/yii2-predis":"^1.0",
+        "yiisoft/yii2-queue": "~2.0",
+        "aliyuncs/oss-sdk-php": "~2.0",
+        "kartik-v/yii2-widgets": "*",
+        "kartik-v/yii2-markdown": "dev-master",
+        "e282486518/yii2-console-migration": "@dev",
+        "lokielse/omnipay-alipay": "dev-legacy",
+        "lokielse/omnipay-wechatpay": "^1.0",
+        "lokielse/omnipay-unionpay": "^0.4",
+        "2amigos/qrcode-library": "^1.1",
+        "oceanickang/yii2-material-design-iconic-font": "dev-master",
+        "oceanickang/oframe-basics": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
         "yiisoft/yii2-gii": "~2.0.0",
         "yiisoft/yii2-faker": "~2.0.0",
         "codeception/base": "^2.2.3",
-        "codeception/verify": "~0.3.1",
-        "oceanickang/oframe-basics": "dev-master"
+        "codeception/verify": "~0.3.1"
     },
     "config": {
         "process-timeout": 1800,

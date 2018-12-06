@@ -4,7 +4,7 @@ return [
         'db' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost;dbname=oframe',
-            'username' => 'root',
+            'username' => 'oframe',
             'password' => 'root',
             'charset' => 'utf8',
             'tablePrefix' => 'of_',

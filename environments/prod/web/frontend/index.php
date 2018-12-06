@@ -25,7 +25,7 @@ if(is_array($yiiClassMap) && !empty($yiiClassMap)){
     }
 }
 
-new oceanickang\basics\services\Application($config['services']);
+new oframe\basics\services\Application($config['services']);
 
 unset($config['services']);
 

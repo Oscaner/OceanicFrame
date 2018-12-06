@@ -11,13 +11,18 @@
 * Composer 包管理工具
 * Git 版本管理工具
 * Node.js (可选，本地浏览文档手册需要用到)
+* PHP Redis 扩展 / PHP memcached 扩展 / PHP MongoDB 扩展 (可选)
+* Redis 数据库 / Memcached 对象缓存系统 / MongoDB 文件存储数据库 (可选)
 
 ## 工具准备
 
-* [《Windows 下配置 PHP 环境变量》](https://blog.oceanickang.com/skill/Others_1383_2018_10_25.html)
-* [《Windows 下配置 Composer 环境变量》](https://blog.oceanickang.com/skill/Others_1385_2018_10_25.html)
-* [《Windows 下配置 Git 环境变量》](https://blog.oceanickang.com/skill/Others_1386_2018_10_25.html) 及 [《Git 文档笔记》](https://blog.oceanickang.com/skill/Others_1387_2018_10_25.html)
-* [《Windows 下配置 Node.js 环境变量》](https://blog.oceanickang.com/skill/Others_438_2018_09_11.html) 及 [《如何本地查看 OceanicFrame 项目文档》](https://blog.oceanickang.com/skill/Others_1391_2018_10_25.html)
+* [《Windows 下配置 PHP 环境变量》](https://www.oceanickang.com/skill/Others_1383_2018_10_25.html)
+* [《Windows 下配置 Composer 环境变量》](https://www.oceanickang.com/skill/Others_1385_2018_10_25.html)
+* [《Windows 下配置 Git 环境变量》](https://www.oceanickang.com/skill/Others_1386_2018_10_25.html) 及 [《Git 文档笔记》](https://www.oceanickang.com/skill/Others_1387_2018_10_25.html)
+* [《Windows 下配置 Node.js 环境变量》](https://www.oceanickang.com/skill/Others_438_2018_09_11.html) 及 [《如何本地查看 OceanicFrame 项目文档》](https://www.oceanickang.com/skill/Others_1391_2018_10_25.html)
+* [《安装 Memcached 分布式对象缓存系统》](http://www.runoob.com/memcached/memcached-install.html)
+* [《Linux 下安装 Redis 数据库》](https://www.oceanickang.com/skill/SQL_1720_2018_11_12.html) 及 [《Redis 介绍》](https://www.oceanickang.com/search/Redis/)
+* [《Linux 下安装 MongoDB 数据库》](https://www.oceanickang.com/skill/SQL_1926_2018_11_12.html) 及 [《MongoDB 介绍](https://www.oceanickang.com/search/MongoDB/)
 
 ## 正式安装
 
@@ -50,7 +55,7 @@ php init
 
 > 修改 common/config/main-local.php 文件，请根据实际情况填写，或默认
 
-6、 安装数据库
+6、 数据迁移
 
 ```
 php ./yii migrate/up
@@ -93,6 +98,6 @@ composer update
 
 2、 路由美化
 
-> 系统默认开启了路由美化（静态路由），访问地址请附带后缀 <code>.html</code>
+> 系统默认开启了路由美化（静态路由），访问地址请附带后缀 `.html`
 
 

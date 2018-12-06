@@ -20,7 +20,7 @@ location /wechat {
 
 ## Apache
 
-由于系统自带了 <code>.htaccess</code>，所以 Apache 环境下可以不用配置伪静态
+由于系统自带了 `.htaccess`，所以 Apache 环境下可以不用配置伪静态
 
 ```
 location / 

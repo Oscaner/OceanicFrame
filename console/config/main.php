@@ -20,6 +20,12 @@ return [
             'class' => 'yii\console\controllers\FixtureController',
             'namespace' => 'common\fixtures',
           ],
+
+        //数据库命令行备份
+        'migrate' => [
+            'class' => 'e282486518\migration\ConsoleController',
+        ],
+        
     ],
     'components' => [
         'log' => [
