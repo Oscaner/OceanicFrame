@@ -10,23 +10,28 @@ use yii\web\AssetBundle;
 class AppAsset extends AssetBundle
 {
     public $basePath = '@webroot';
+
     public $baseUrl = '@web';
+
     public $css = [
-        '/resource/backend/layui/css/layui.css',
-        '/resource/backend/others/css/oframe.css',
-        '/resource/backend/others/css/ali-icon.css',
-        '/resource/backend/layui/css/modules/layer/default/layer.css',
-        '/resource/backend/style/admin.css',
-        '/resource/backend/style/login.css',
+        '/resources/backend/layui/css/layui.css',
+        '/resources/backend/others/css/oframe.css',
+        '/resources/backend/others/css/ali-icon.css',
+        '/resources/backend/layui/css/modules/layer/default/layer.css',
+        '/resources/backend/style/admin.css',
+        '/resources/backend/style/login.css',
     ];
+
     public $js = [
-        '/resource/backend/layui/layui.js',
+        '/resources/backend/layui/layui.js',
     ];
+
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
         'oceanickang\yii\material\font\MaterialDesignIconicFontAsset',
     ];
+
     /**
      * @inheritdoc
      */
@@ -37,7 +42,7 @@ class AppAsset extends AssetBundle
     // echarts
     public static function addECharts($view) {
 
-        $view -> registerJsFile('/resource/backend/others/js/echarts.min.js', ['position' => $view::POS_HEAD]);
+        $view -> registerJsFile('/resources/backend/others/js/echarts.min.js', ['position' => $view::POS_HEAD]);
 
     }
 

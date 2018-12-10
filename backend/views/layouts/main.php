@@ -65,7 +65,7 @@ AppAsset::register($this);
 
 <script>
     layui.config({
-        base: '/resource/backend/' //静态资源所在路径
+        base: '/resources/backend/' //静态资源所在路径
     }).extend({
         index: 'lib/index' //主入口模块
     }).use(['index', 'user'], function(){
