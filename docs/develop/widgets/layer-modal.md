@@ -1,5 +1,5 @@
 
-弹出层类似于 Bootstrap 的 模态框（Modal），是覆盖在父窗体上的子窗体
+弹出层类似于 Bootstrap 的 模态框（layer-modal），是覆盖在父窗体上的子窗体
 
 目的是显示来自一个单独的源的内容，可以在不离开父窗体的情况下有一些互动。
 
@@ -7,13 +7,13 @@
 
 ### 用法
 
-1、 在控制器元素（比如按钮或者链接）上设置属性 `class="model"`，同时设置 `title` 以及 `href`
+1、 在控制器元素（比如按钮或者链接）上设置属性 `class="layer-modal"`，同时设置 `title` 以及 `href`
 
 2、 在需要展示的内容页头部，添加如下代码：
 
 ```php
 <?php
-$this -> context -> layout = '@basics/backend/views/layout/model';
+$this -> context -> layout = '@basics/backend/views/layout/layer-modal';
 ?>
 ```
 
@@ -24,7 +24,7 @@ $this -> context -> layout = '@basics/backend/views/layout/model';
 1、 标签元素
 
 ```php
-<a class="layui-btn layui-btn-normal model" title="添加新菜单" href="<?php echo Url::to(['edit', 'type' => $type]); ?>">
+<a class="layui-btn layui-btn-normal layer-modal" title="添加新菜单" href="<?php echo Url::to(['edit', 'type' => $type]); ?>">
     <i class="layui-icon layui-icon-add-circle-fine"></i>添加新菜单
 </a>
 ```
@@ -35,7 +35,7 @@ $this -> context -> layout = '@basics/backend/views/layout/model';
 <?php
 use yii\widgets\ActiveForm;
 
-$this -> context -> layout = '@basics/backend/views/layout/model';
+$this -> context -> layout = '@basics/backend/views/layout/layer-modal';
 ?>
 
 <?php $form = ActiveForm::begin([

@@ -46,7 +46,7 @@
 * 常用组件
 
     * [图标库](/develop/widgets/icon.md)
-    * [弹出层](/develop/widgets/model.md)
+    * [弹出层](/develop/widgets/layer-modal.md)
     * [分页类](/develop/widgets/LinkPager.md)
     
 * 附录
