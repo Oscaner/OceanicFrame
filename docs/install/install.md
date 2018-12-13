@@ -20,9 +20,9 @@
 * [《Windows 下配置 Composer 环境变量》](https://www.oceanickang.com/skill/Others_1385_2018_10_25.html)
 * [《Windows 下配置 Git 环境变量》](https://www.oceanickang.com/skill/Others_1386_2018_10_25.html) 及 [《Git 文档笔记》](https://www.oceanickang.com/skill/Others_1387_2018_10_25.html)
 * [《Windows 下配置 Node.js 环境变量》](https://www.oceanickang.com/skill/Others_438_2018_09_11.html) 及 [《如何本地查看 OceanicFrame 项目文档》](https://www.oceanickang.com/skill/Others_1391_2018_10_25.html)
-* [《安装 Memcached 分布式对象缓存系统》](http://www.runoob.com/memcached/memcached-install.html)
-* [《Linux 下安装 Redis 数据库》](https://www.oceanickang.com/skill/SQL_1720_2018_11_12.html) 及 [《Redis 介绍》](https://www.oceanickang.com/search/Redis/)
-* [《Linux 下安装 MongoDB 数据库》](https://www.oceanickang.com/skill/SQL_1926_2018_11_12.html) 及 [《MongoDB 介绍](https://www.oceanickang.com/search/MongoDB/)
+* [《Linux 下安装 php-memcached 扩展》](https://www.oceanickang.com/skill/Linux_2393_2018_12_14.html) 及 [《Linux 下安装 Memcached 缓存系统》](https://www.oceanickang.com/skill/Linux_2384_2018_12_12.html)
+* [《Linux 下安装 Redis 数据库》](https://www.oceanickang.com/skill/Linux_1720_2018_11_12.html) 及 [《Redis 介绍》](https://www.oceanickang.com/tag/Redis/)
+* [《Linux 下安装 MongoDB 数据库》](https://www.oceanickang.com/skill/Linux_1926_2018_11_12.html) 及 [《MongoDB 介绍》](https://www.oceanickang.com/tag/MongoDB/)
 
 ## 正式安装
 
@@ -30,7 +30,6 @@
 
 ```
 git clone git@github.com:OceanicKang/OceanicFrame.git
-
 ```
 
 2、 进入根目录
@@ -74,19 +73,19 @@ php ./yii migrate/up
 
 ## 路由明细
 
-> 前台路径： http://domain-name/ or http://domain-name/frontend
+> 前台路径： `http://domain/` or `http://domain/frontend`
 
-> 后台地址： http://domain-name/backend
+> 后台地址： `http://domain/backend`
 
-> 微信地址： http://domain-name/wechat
+> 微信地址： `http://domain/wechat`
 
-> Api地址： http://domain-name/api
+> Api地址： `http://domain/api`
 
 ## 默认用户
 
 > 后台默认用户名： admin
 
-> 后台默认密码： 1234567890
+> 后台默认密码： 123456
 
 ## 附录说明
 

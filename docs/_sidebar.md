@@ -42,12 +42,14 @@
     * [CaptchaHelper](/develop/helper/CaptchaHelper.md)
     * [SysArrayHelper](/develop/helper/SysArrayHelper.md)
     * [MySQLHelper](/develop/helper/MySQLHelper.md)
+    * [UploadHelper](/develop/helper/UploadHelper.md)
 
 * 常用组件
 
     * [图标库](/develop/widgets/icon.md)
     * [弹出层](/develop/widgets/layer-modal.md)
     * [分页类](/develop/widgets/LinkPager.md)
+    * [图片裁剪](/develop/widgets/Cropper.md)
     
 * 附录
     

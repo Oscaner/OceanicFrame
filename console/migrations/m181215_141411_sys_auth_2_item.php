@@ -2,7 +2,7 @@
 
 use yii\db\Migration;
 
-class m181130_061401_sys_auth_2_item extends Migration
+class m181215_141411_sys_auth_2_item extends Migration
 {
     public function up()
     {
@@ -30,7 +30,7 @@ class m181130_061401_sys_auth_2_item extends Migration
         $this->createIndex('type','{{%sys_auth_2_item}}','type',0);
         
         /* 外键约束设置 */
-        $this->addForeignKey('fk_sys_auth_1_rule_2974_00','{{%sys_auth_2_item}}', 'rule_name', '{{%sys_auth_1_rule}}', 'name', 'CASCADE', 'CASCADE' );
+        $this->addForeignKey('fk_sys_auth_1_rule_1554_00','{{%sys_auth_2_item}}', 'rule_name', '{{%sys_auth_1_rule}}', 'name', 'CASCADE', 'CASCADE' );
         
         /* 表数据 */
         $this->insert('{{%sys_auth_2_item}}',['name'=>'/','type'=>'2','description'=>'暂未配置权限','rule_name'=>NULL,'data'=>NULL,'id'=>'43','pid'=>'42','level'=>'3','sort'=>'0','append'=>'1543208278','updated'=>'1543208278']);
@@ -69,6 +69,8 @@ class m181130_061401_sys_auth_2_item extends Migration
         $this->insert('{{%sys_auth_2_item}}',['name'=>'/sys/setting/config','type'=>'2','description'=>'网站配置信息','rule_name'=>NULL,'data'=>NULL,'id'=>'54','pid'=>'36','level'=>'2','sort'=>'0','append'=>'1543504222','updated'=>'1543504460']);
         $this->insert('{{%sys_auth_2_item}}',['name'=>'/sys/setting/send-email','type'=>'2','description'=>'发送测试邮件','rule_name'=>NULL,'data'=>NULL,'id'=>'40','pid'=>'36','level'=>'2','sort'=>'2','append'=>'1542594001','updated'=>'1543504514']);
         $this->insert('{{%sys_auth_2_item}}',['name'=>'/sys/setting/update','type'=>'2','description'=>'更新配置','rule_name'=>NULL,'data'=>NULL,'id'=>'39','pid'=>'36','level'=>'2','sort'=>'1','append'=>'1542593944','updated'=>'1543504513']);
+        $this->insert('{{%sys_auth_2_item}}',['name'=>'/sys/system/info','type'=>'2','description'=>'系统信息','rule_name'=>NULL,'data'=>NULL,'id'=>'55','pid'=>'44','level'=>'2','sort'=>'1','append'=>'1543627363','updated'=>'1543627377']);
+        $this->insert('{{%sys_auth_2_item}}',['name'=>'/sys/system/server','type'=>'2','description'=>'服务器信息','rule_name'=>NULL,'data'=>NULL,'id'=>'56','pid'=>'44','level'=>'2','sort'=>'2','append'=>'1543627396','updated'=>'1543627405']);
         $this->insert('{{%sys_auth_2_item}}',['name'=>'menu-setting','type'=>'2','description'=>'菜单 -- 网站设置','rule_name'=>NULL,'data'=>NULL,'id'=>'36','pid'=>'0','level'=>'1','sort'=>'0','append'=>'1542593114','updated'=>'1543504476']);
         $this->insert('{{%sys_auth_2_item}}',['name'=>'sys-extend','type'=>'2','description'=>'系统 -- 扩展','rule_name'=>NULL,'data'=>NULL,'id'=>'2','pid'=>'0','level'=>'1','sort'=>'1','append'=>'1541984345','updated'=>'1542593135']);
         $this->insert('{{%sys_auth_2_item}}',['name'=>'sys-extend-config','type'=>'2','description'=>'配置管理','rule_name'=>NULL,'data'=>NULL,'id'=>'5','pid'=>'2','level'=>'2','sort'=>'1','append'=>'1541985424','updated'=>'1542696148']);
@@ -78,7 +80,7 @@ class m181130_061401_sys_auth_2_item extends Migration
         $this->insert('{{%sys_auth_2_item}}',['name'=>'sys-rbac-manager','type'=>'2','description'=>'后台用户','rule_name'=>NULL,'data'=>NULL,'id'=>'42','pid'=>'1','level'=>'2','sort'=>'0','append'=>'1543207907','updated'=>'1543207907']);
         $this->insert('{{%sys_auth_2_item}}',['name'=>'sys-rbac-role','type'=>'2','description'=>'角色管理','rule_name'=>NULL,'data'=>NULL,'id'=>'21','pid'=>'1','level'=>'2','sort'=>'1','append'=>'1542119349','updated'=>'1543207928']);
         $this->insert('{{%sys_auth_2_item}}',['name'=>'sys-rbac-rule','type'=>'2','description'=>'规则管理','rule_name'=>NULL,'data'=>NULL,'id'=>'22','pid'=>'1','level'=>'2','sort'=>'3','append'=>'1542119381','updated'=>'1543207932']);
-        $this->insert('{{%sys_auth_2_item}}',['name'=>'sys-tools','type'=>'2','description'=>'系统 -- 系统工具','rule_name'=>NULL,'data'=>NULL,'id'=>'44','pid'=>'0','level'=>'1','sort'=>'3','append'=>'1543208331','updated'=>'1543208706']);
+        $this->insert('{{%sys_auth_2_item}}',['name'=>'sys-tools','type'=>'2','description'=>'系统 -- 系统工具','rule_name'=>NULL,'data'=>NULL,'id'=>'44','pid'=>'0','level'=>'1','sort'=>'3','append'=>'1543208331','updated'=>'1543627408']);
         $this->insert('{{%sys_auth_2_item}}',['name'=>'sys-tools-database','type'=>'2','description'=>'数据库管理','rule_name'=>NULL,'data'=>NULL,'id'=>'45','pid'=>'44','level'=>'2','sort'=>'0','append'=>'1543208366','updated'=>'1543208366']);
         $this->insert('{{%sys_auth_2_item}}',['name'=>'总管理员','type'=>'1','description'=>'拥有所有权限','rule_name'=>NULL,'data'=>NULL,'id'=>'19','pid'=>'0','level'=>'1','sort'=>'0','append'=>'1542086514','updated'=>'1542086514']);
         $this->insert('{{%sys_auth_2_item}}',['name'=>'游客','type'=>'1','description'=>'仅拥有每个页面的查看权限','rule_name'=>NULL,'data'=>NULL,'id'=>'35','pid'=>'0','level'=>'1','sort'=>'0','append'=>'1542505021','updated'=>'1543208938']);

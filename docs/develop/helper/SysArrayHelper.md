@@ -5,9 +5,13 @@
 
 命名空间：`namespace oframe\basics\common\helpers`
 
+继承自：`yii\helpers\BaseArrayHelper`
+
 调用方式：`use oframe\basics\common\helpers\SysArrayHelper`
 
 静态调用：如 `SysArrayHelper::itemsMerge($array, 'id', 'pid', $pid = 0)`
+
+Yii2 数组助手类文档：[《助手类（Helpers）: Array 助手（ArrayHelper）》](https://www.yiichina.com/doc/guide/2.0/helper-array)
 
 ## SysArray 助手类方法
 
@@ -79,40 +83,6 @@ $array = [
     1 => ['id' => 5, 'pid' => 1],
     5 => ['id' => 6, 'pid' => 3],
     6 => ['id' => 7, 'pid' => 6]
-];
-```
-
-#### 3、二位数组排序
-
-> sort($arr, $key, $type = 'asc')
-
-| 参数 | 描述 | 是否必须 |
-| :------- | :------- | :------- |
-| arr | 排序数组 | 必须 |
-| key | 排序关键字 | 必须 |
-| type | 排序类型 | 可选 |
-
-```php
-$array = [
-    0 => ['id' => 1, 'pid' => 0],
-    1 => ['id' => 2, 'pid' => 0],
-    2 => ['id' => 3, 'pid' => 1],
-    3 => ['id' => 4, 'pid' => 2],
-    4 => ['id' => 5, 'pid' => 1],
-    5 => ['id' => 6, 'pid' => 3],
-    6 => ['id' => 7, 'pid' => 6]
-];
-
-$array = SysArrayHelper::sort($array, 'pid', 'desc');
-
-$array = [
-    6 => ['id' => 7, 'pid' => 6],
-    5 => ['id' => 6, 'pid' => 3],
-    3 => ['id' => 4, 'pid' => 2],
-    2 => ['id' => 3, 'pid' => 1],
-    4 => ['id' => 5, 'pid' => 1],
-    0 => ['id' => 1, 'pid' => 0],
-    1 => ['id' => 2, 'pid' => 0],
 ];
 ```
 

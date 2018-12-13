@@ -2,7 +2,7 @@
 
 use yii\db\Migration;
 
-class m181130_061401_member extends Migration
+class m181215_141410_member extends Migration
 {
     public function up()
     {
@@ -17,7 +17,7 @@ class m181130_061401_member extends Migration
             'auth_key' => "varchar(32) NOT NULL COMMENT '自动登录key'",
             'password_hash' => "varchar(255) NOT NULL COMMENT '加密密码'",
             'password_reset_token' => "varchar(255) NULL COMMENT '重置密码token'",
-            'head_img' => "varchar(255) NOT NULL COMMENT '头像'",
+            'avatar' => "varchar(255) NOT NULL COMMENT '头像'",
             'email' => "varchar(255) NOT NULL COMMENT '邮箱'",
             'mobile_phone' => "varchar(20) NOT NULL COMMENT '手机'",
             'status' => "tinyint(4) NOT NULL DEFAULT '10' COMMENT '状态'",
@@ -33,7 +33,7 @@ class m181130_061401_member extends Migration
         
         
         /* 表数据 */
-        $this->insert('{{%member}}',['id'=>'1','username'=>'admin','nickname'=>'','auth_key'=>'yWz6JT7i2uT0QWSpr_FPYm24w5d515eN','password_hash'=>'$2y$13$372T8BmoDb8Ac0/H2MOp4.OW19eeq9/nrPfqPxLZwBfo.6ml.1TmC','password_reset_token'=>NULL,'head_img'=>'/resource/common/img/head_img.png','email'=>'2573226076@qq.com','mobile_phone'=>'','status'=>'10','append'=>'1540568423','updated'=>'1542255576']);
+        $this->insert('{{%member}}',['id'=>'1','username'=>'admin','nickname'=>'','auth_key'=>'yWz6JT7i2uT0QWSpr_FPYm24w5d515eN','password_hash'=>'$2y$13$372T8BmoDb8Ac0/H2MOp4.OW19eeq9/nrPfqPxLZwBfo.6ml.1TmC','password_reset_token'=>NULL,'avatar'=>'/resources/common/img/head_img.png','email'=>'2573226076@qq.com','mobile_phone'=>'','status'=>'10','append'=>'1540568423','updated'=>'1542255576']);
         
         /* 设置外键约束 */
         $this->execute('SET foreign_key_checks = 1;');
