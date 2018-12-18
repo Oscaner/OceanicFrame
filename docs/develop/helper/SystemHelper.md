@@ -7,20 +7,21 @@
 
 调用方式：`use oframe\basics\common\helpers\SystemHelper`
 
-静态调用：如 `SystemHelper::getFileType()`
+静态调用：如 `SystemHelper::getFileTypeToEN()`
 
 #### 1、获取文件类型
 
-> getFileType($fileName)
+> getFileTypeToEN($fileName) <br>
+> getFileTypeToCN($fileName)
 
 | 参数 | 描述 | 是否必须 |
 | :------- | :------- | :------- |
 | fileName | 文件名 | 必须 |
 
 ```php
-$txt = SystemHelper::getFileType('demo.txt');
+$txt = SystemHelper::getFileTypeToEN('demo.txt');
 
-echo $txt; // 记事本文档
+echo $txt; // txt
 ```
 
 文件扩展名的中文名称可在 `/common/config/params.php` 中进行修改

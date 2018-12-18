@@ -43,6 +43,7 @@ return [
             'web/frontend/assets',
 
             'common/backup',
+            'commom/backup/mysql'
         ],
 
         'setExecutable' => [
@@ -71,6 +72,7 @@ return [
             'web/frontend/assets',
 
             'common/backup',
+            'commom/backup/mysql'
         ],
 
         'setExecutable' => [

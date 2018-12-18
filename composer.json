@@ -31,6 +31,7 @@
         "lokielse/omnipay-wechatpay": "^1.0",
         "lokielse/omnipay-unionpay": "^0.4",
         "2amigos/qrcode-library": "^1.1",
+        "ramsey/uuid": "^3.7",
         "oceanickang/yii2-material-design-iconic-font": "dev-master",
         "oceanickang/oframe-basics": "dev-master"
     },

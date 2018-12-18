@@ -4,7 +4,7 @@ Yii NoSQL 配置均在 `common/config/main.php`
 
 系统默认为文件缓存，根据实际情况进行相应修改
 
-## Memcache
+## Memcached
 
 #### 1、Yii 配置
 
