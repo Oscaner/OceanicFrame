@@ -2,7 +2,7 @@
 
 use yii\db\Migration;
 
-class m181215_141411_sys_menu extends Migration
+class m181230_121932_sys_menu extends Migration
 {
     public function up()
     {

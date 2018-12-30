@@ -40,9 +40,11 @@
     * [StatusEnum](/develop/helper/StatusEnum.md)
     * [AjaxHelper](/develop/helper/AjaxHelper.md)
     * [CaptchaHelper](/develop/helper/CaptchaHelper.md)
+    * [DebrisHelper](/develop/helper/DebrisHelper.md)
+    * [FileHelper](/develop/helper/FileHelper.md)
     * [MySQLHelper](/develop/helper/MySQLHelper.md)
+    * [StringHelper](/develop/helper/StringHelper.md)
     * [SysArrayHelper](/develop/helper/SysArrayHelper.md)
-    * [SystemHelper](/develop/helper/SystemHelper.md)
     * [UploadHelper](/develop/helper/UploadHelper.md)
 
 * 常用组件

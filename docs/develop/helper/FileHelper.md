@@ -5,9 +5,9 @@
 
 命名空间：`namespace oframe\basics\common\helpers`
 
-调用方式：`use oframe\basics\common\helpers\SystemHelper`
+调用方式：`use oframe\basics\common\helpers\FileHelper`
 
-静态调用：如 `SystemHelper::getFileTypeToEN()`
+静态调用：如 `FileHelper::getFileTypeToEN()`
 
 #### 1、获取文件类型
 
@@ -19,7 +19,7 @@
 | fileName | 文件名 | 必须 |
 
 ```php
-$txt = SystemHelper::getFileTypeToEN('demo.txt');
+$txt = FileHelper::getFileTypeToEN('demo.txt');
 
 echo $txt; // txt
 ```

@@ -2,7 +2,7 @@
 
 use yii\db\Migration;
 
-class m181215_141411_sys_auth_2_item extends Migration
+class m181230_121931_sys_auth_2_item extends Migration
 {
     public function up()
     {
@@ -30,7 +30,7 @@ class m181215_141411_sys_auth_2_item extends Migration
         $this->createIndex('type','{{%sys_auth_2_item}}','type',0);
         
         /* 外键约束设置 */
-        $this->addForeignKey('fk_sys_auth_1_rule_1554_00','{{%sys_auth_2_item}}', 'rule_name', '{{%sys_auth_1_rule}}', 'name', 'CASCADE', 'CASCADE' );
+        $this->addForeignKey('fk_sys_auth_1_rule_8809_00','{{%sys_auth_2_item}}', 'rule_name', '{{%sys_auth_1_rule}}', 'name', 'CASCADE', 'CASCADE' );
         
         /* 表数据 */
         $this->insert('{{%sys_auth_2_item}}',['name'=>'/','type'=>'2','description'=>'暂未配置权限','rule_name'=>NULL,'data'=>NULL,'id'=>'43','pid'=>'42','level'=>'3','sort'=>'0','append'=>'1543208278','updated'=>'1543208278']);

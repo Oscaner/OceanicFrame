@@ -47,7 +47,7 @@ cd OceanicFrame
 3、 Composer 依赖安装
 
 ```
-composer install 或者 php composer.phar install
+composer install
 ```
 
 4、 初始化项目（第一个选择 0，之后选择 yes）
